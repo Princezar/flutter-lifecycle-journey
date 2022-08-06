@@ -6,6 +6,11 @@
 
 1. First part of the journey I started a simple project that create the appbar title.
     - create main function.
+        
+            void main() {
+                
+            }
+        
     - create app class with extend StatelessWidget.
     - Change return Container with MaterialApp.
     - Under Material their will be home part with Scaffold.
