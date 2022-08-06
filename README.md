@@ -47,17 +47,17 @@
     - Under Material their will be home property that has Scaffold.
 
         
-        class AppName extends StatelessWidget {
-         const ({Key? key}) : super(key: key);
-         
-         @override
-          Widget build(BuildContext context) {
-            return MaterialApp(
-            home: Scaffold(
-            ),
-            ));
-          }
-        }
+            class AppName extends StatelessWidget {
+             const ({Key? key}) : super(key: key);
+
+             @override
+              Widget build(BuildContext context) {
+                return MaterialApp(
+                home: Scaffold(
+                ),
+                ));
+              }
+            }
         
     - Under Scaffold will be the appBar.
     - Appbar has properties like title.
