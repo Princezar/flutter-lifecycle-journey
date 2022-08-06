@@ -1,4 +1,4 @@
-# flutter-lifecycle-journey
+# flutter-journey
 
 ## Hi there!
 
