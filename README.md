@@ -30,10 +30,20 @@
     - Call AppName class using runApp function inside the main function.
 
             void main(){
-              runApp(const MyApp());
+              runApp(const AppName());
             }
             
-    - Change return Container with MaterialApp.
+    - From the extend StatelessWidget change return Container with MaterialApp.
+
+             class AppName extends StatelessWidget {
+              const ({Key? key}) : super(key: key);
+
+              @override
+              Widget build(BuildContext context) {
+                return MaterialApp();
+              }
+            }
+        
     - Under Material their will be home part with Scaffold.
     - Under Scaffold will be the appBar.
     - Appbar has properties like title.
