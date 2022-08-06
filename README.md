@@ -17,6 +17,16 @@
             }
         
     - create app class with extend StatelessWidget.
+
+            class AppName extends StatelessWidget {
+              const ({Key? key}) : super(key: key);
+
+              @override
+              Widget build(BuildContext context) {
+                return Container();
+              }
+            }
+            
     - Change return Container with MaterialApp.
     - Under Material their will be home part with Scaffold.
     - Under Scaffold will be the appBar.
