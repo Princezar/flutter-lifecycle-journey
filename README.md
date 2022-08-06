@@ -44,7 +44,7 @@
               }
             }
         
-    - Under Material their will be home part with Scaffold.
+    - Under Material their will be home property that has Scaffold.
     - Under Scaffold will be the appBar.
     - Appbar has properties like title.
 
