@@ -1,4 +1,4 @@
-package com.example.appbar
+package com.example.flexlayout
 
 import io.flutter.embedding.android.FlutterActivity
 

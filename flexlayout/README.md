@@ -1,6 +1,6 @@
-# appbar
+# flexlayout
 
-Basic App Bar with title
+flexlayout
 
 ## Getting Started
 
