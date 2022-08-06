@@ -78,7 +78,7 @@
         
     - Appbar has properties like title.
 
-              class MyApp extends StatelessWidget {
+            class MyApp extends StatelessWidget {
               const MyApp({Key? key}) : super(key: key);
 
               @override
