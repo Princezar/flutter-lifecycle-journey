@@ -25,7 +25,9 @@ class MyApp extends StatelessWidget {
               top: 50,
               left: 50,
               child: Icon(Icons.verified),
-            )
+            ),
+            
+
           ],
         ),
       ),
