@@ -16,7 +16,7 @@
                 
             }
         
-    - create app class with extend StatelessWidget.
+    - create class AppName with extend StatelessWidget.
 
             class AppName extends StatelessWidget {
               const ({Key? key}) : super(key: key);
@@ -25,6 +25,12 @@
               Widget build(BuildContext context) {
                 return Container();
               }
+            }
+            
+    - Call AppName class using runApp function inside the main function.
+
+            void main(){
+              runApp(const MyApp());
             }
             
     - Change return Container with MaterialApp.
