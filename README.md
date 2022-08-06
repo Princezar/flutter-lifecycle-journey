@@ -59,7 +59,38 @@
               }
             }
         
-    - Under Scaffold will be the appBar.
+    - Under Scaffold will be the appBar and it will display top of the scaffold.
+
+            class MyApp extends StatelessWidget {
+              const MyApp({Key? key}) : super(key: key);
+
+              @override
+              Widget build(BuildContext context) {
+                return MaterialApp(
+                  home: Scaffold(
+                    appBar: AppBar(
+                      
+                    ),
+                   ),
+                ); //Material design
+              }
+            }
+        
     - Appbar has properties like title.
+
+              class MyApp extends StatelessWidget {
+              const MyApp({Key? key}) : super(key: key);
+
+              @override
+              Widget build(BuildContext context) {
+                return MaterialApp(
+                  home: Scaffold(
+                    appBar: AppBar(
+                      title: const Text('Flutter Navigation Bar Button'),
+                    ),
+                   ),
+                ); //Material design
+              }
+            }
 
 
